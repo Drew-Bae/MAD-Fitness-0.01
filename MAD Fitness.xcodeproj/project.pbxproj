@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		44B2298425FDD4FF009B0469 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B2298325FDD4FF009B0469 /* AppDelegate.swift */; };
+		44B2298625FDD4FF009B0469 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B2298525FDD4FF009B0469 /* SceneDelegate.swift */; };
+		44B2298825FDD4FF009B0469 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B2298725FDD4FF009B0469 /* ViewController.swift */; };
+		44B2298B25FDD4FF009B0469 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44B2298925FDD4FF009B0469 /* Main.storyboard */; };
+		44B2298E25FDD4FF009B0469 /* MAD_Fitness.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 44B2298C25FDD4FF009B0469 /* MAD_Fitness.xcdatamodeld */; };
+		44B2299025FDD502009B0469 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44B2298F25FDD502009B0469 /* Assets.xcassets */; };
+		44B2299325FDD502009B0469 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44B2299125FDD502009B0469 /* LaunchScreen.storyboard */; };
+		44B2299E25FDD502009B0469 /* MAD_FitnessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B2299D25FDD502009B0469 /* MAD_FitnessTests.swift */; };
+		44B229A925FDD502009B0469 /* MAD_FitnessUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B229A825FDD502009B0469 /* MAD_FitnessUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		44B2299A25FDD502009B0469 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44B2297825FDD4FF009B0469 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44B2297F25FDD4FF009B0469;
+			remoteInfo = "MAD Fitness";
+		};
+		44B229A525FDD502009B0469 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44B2297825FDD4FF009B0469 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44B2297F25FDD4FF009B0469;
+			remoteInfo = "MAD Fitness";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		44B2298025FDD4FF009B0469 /* MAD Fitness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MAD Fitness.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		44B2298325FDD4FF009B0469 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		44B2298525FDD4FF009B0469 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		44B2298725FDD4FF009B0469 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		44B2298A25FDD4FF009B0469 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		44B2298D25FDD4FF009B0469 /* MAD_Fitness.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MAD_Fitness.xcdatamodel; sourceTree = "<group>"; };
+		44B2298F25FDD502009B0469 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		44B2299225FDD502009B0469 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		44B2299425FDD502009B0469 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44B2299925FDD502009B0469 /* MAD FitnessTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MAD FitnessTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		44B2299D25FDD502009B0469 /* MAD_FitnessTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MAD_FitnessTests.swift; sourceTree = "<group>"; };
+		44B2299F25FDD502009B0469 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44B229A425FDD502009B0469 /* MAD FitnessUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MAD FitnessUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		44B229A825FDD502009B0469 /* MAD_FitnessUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MAD_FitnessUITests.swift; sourceTree = "<group>"; };
+		44B229AA25FDD502009B0469 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44B2297D25FDD4FF009B0469 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44B2299625FDD502009B0469 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44B229A125FDD502009B0469 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44B2297725FDD4FF009B0469 = {
+			isa = PBXGroup;
+			children = (
+				44B2298225FDD4FF009B0469 /* MAD Fitness */,
+				44B2299C25FDD502009B0469 /* MAD FitnessTests */,
+				44B229A725FDD502009B0469 /* MAD FitnessUITests */,
+				44B2298125FDD4FF009B0469 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		44B2298125FDD4FF009B0469 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44B2298025FDD4FF009B0469 /* MAD Fitness.app */,
+				44B2299925FDD502009B0469 /* MAD FitnessTests.xctest */,
+				44B229A425FDD502009B0469 /* MAD FitnessUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44B2298225FDD4FF009B0469 /* MAD Fitness */ = {
+			isa = PBXGroup;
+			children = (
+				44B2298325FDD4FF009B0469 /* AppDelegate.swift */,
+				44B2298525FDD4FF009B0469 /* SceneDelegate.swift */,
+				44B2298725FDD4FF009B0469 /* ViewController.swift */,
+				44B2298925FDD4FF009B0469 /* Main.storyboard */,
+				44B2298F25FDD502009B0469 /* Assets.xcassets */,
+				44B2299125FDD502009B0469 /* LaunchScreen.storyboard */,
+				44B2299425FDD502009B0469 /* Info.plist */,
+				44B2298C25FDD4FF009B0469 /* MAD_Fitness.xcdatamodeld */,
+			);
+			path = "MAD Fitness";
+			sourceTree = "<group>";
+		};
+		44B2299C25FDD502009B0469 /* MAD FitnessTests */ = {
+			isa = PBXGroup;
+			children = (
+				44B2299D25FDD502009B0469 /* MAD_FitnessTests.swift */,
+				44B2299F25FDD502009B0469 /* Info.plist */,
+			);
+			path = "MAD FitnessTests";
+			sourceTree = "<group>";
+		};
+		44B229A725FDD502009B0469 /* MAD FitnessUITests */ = {
+			isa = PBXGroup;
+			children = (
+				44B229A825FDD502009B0469 /* MAD_FitnessUITests.swift */,
+				44B229AA25FDD502009B0469 /* Info.plist */,
+			);
+			path = "MAD FitnessUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		44B2297F25FDD4FF009B0469 /* MAD Fitness */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44B229AD25FDD502009B0469 /* Build configuration list for PBXNativeTarget "MAD Fitness" */;
+			buildPhases = (
+				44B2297C25FDD4FF009B0469 /* Sources */,
+				44B2297D25FDD4FF009B0469 /* Frameworks */,
+				44B2297E25FDD4FF009B0469 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MAD Fitness";
+			productName = "MAD Fitness";
+			productReference = 44B2298025FDD4FF009B0469 /* MAD Fitness.app */;
+			productType = "com.apple.product-type.application";
+		};
+		44B2299825FDD502009B0469 /* MAD FitnessTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44B229B025FDD502009B0469 /* Build configuration list for PBXNativeTarget "MAD FitnessTests" */;
+			buildPhases = (
+				44B2299525FDD502009B0469 /* Sources */,
+				44B2299625FDD502009B0469 /* Frameworks */,
+				44B2299725FDD502009B0469 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44B2299B25FDD502009B0469 /* PBXTargetDependency */,
+			);
+			name = "MAD FitnessTests";
+			productName = "MAD FitnessTests";
+			productReference = 44B2299925FDD502009B0469 /* MAD FitnessTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		44B229A325FDD502009B0469 /* MAD FitnessUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44B229B325FDD502009B0469 /* Build configuration list for PBXNativeTarget "MAD FitnessUITests" */;
+			buildPhases = (
+				44B229A025FDD502009B0469 /* Sources */,
+				44B229A125FDD502009B0469 /* Frameworks */,
+				44B229A225FDD502009B0469 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44B229A625FDD502009B0469 /* PBXTargetDependency */,
+			);
+			name = "MAD FitnessUITests";
+			productName = "MAD FitnessUITests";
+			productReference = 44B229A425FDD502009B0469 /* MAD FitnessUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		44B2297825FDD4FF009B0469 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					44B2297F25FDD4FF009B0469 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					44B2299825FDD502009B0469 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 44B2297F25FDD4FF009B0469;
+					};
+					44B229A325FDD502009B0469 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 44B2297F25FDD4FF009B0469;
+					};
+				};
+			};
+			buildConfigurationList = 44B2297B25FDD4FF009B0469 /* Build configuration list for PBXProject "MAD Fitness" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 44B2297725FDD4FF009B0469;
+			productRefGroup = 44B2298125FDD4FF009B0469 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				44B2297F25FDD4FF009B0469 /* MAD Fitness */,
+				44B2299825FDD502009B0469 /* MAD FitnessTests */,
+				44B229A325FDD502009B0469 /* MAD FitnessUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		44B2297E25FDD4FF009B0469 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44B2299325FDD502009B0469 /* LaunchScreen.storyboard in Resources */,
+				44B2299025FDD502009B0469 /* Assets.xcassets in Resources */,
+				44B2298B25FDD4FF009B0469 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44B2299725FDD502009B0469 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44B229A225FDD502009B0469 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44B2297C25FDD4FF009B0469 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44B2298825FDD4FF009B0469 /* ViewController.swift in Sources */,
+				44B2298E25FDD4FF009B0469 /* MAD_Fitness.xcdatamodeld in Sources */,
+				44B2298425FDD4FF009B0469 /* AppDelegate.swift in Sources */,
+				44B2298625FDD4FF009B0469 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44B2299525FDD502009B0469 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44B2299E25FDD502009B0469 /* MAD_FitnessTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44B229A025FDD502009B0469 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44B229A925FDD502009B0469 /* MAD_FitnessUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		44B2299B25FDD502009B0469 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 44B2297F25FDD4FF009B0469 /* MAD Fitness */;
+			targetProxy = 44B2299A25FDD502009B0469 /* PBXContainerItemProxy */;
+		};
+		44B229A625FDD502009B0469 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 44B2297F25FDD4FF009B0469 /* MAD Fitness */;
+			targetProxy = 44B229A525FDD502009B0469 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		44B2298925FDD4FF009B0469 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44B2298A25FDD4FF009B0469 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		44B2299125FDD502009B0469 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44B2299225FDD502009B0469 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		44B229AB25FDD502009B0469 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		44B229AC25FDD502009B0469 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		44B229AE25FDD502009B0469 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "MAD Fitness/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cs.mad.MAD-Fitness";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		44B229AF25FDD502009B0469 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "MAD Fitness/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cs.mad.MAD-Fitness";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		44B229B125FDD502009B0469 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "MAD FitnessTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cs.mad.MAD-FitnessTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MAD Fitness.app/MAD Fitness";
+			};
+			name = Debug;
+		};
+		44B229B225FDD502009B0469 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "MAD FitnessTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cs.mad.MAD-FitnessTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MAD Fitness.app/MAD Fitness";
+			};
+			name = Release;
+		};
+		44B229B425FDD502009B0469 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "MAD FitnessUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cs.mad.MAD-FitnessUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "MAD Fitness";
+			};
+			name = Debug;
+		};
+		44B229B525FDD502009B0469 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "MAD FitnessUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cs.mad.MAD-FitnessUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "MAD Fitness";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44B2297B25FDD4FF009B0469 /* Build configuration list for PBXProject "MAD Fitness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44B229AB25FDD502009B0469 /* Debug */,
+				44B229AC25FDD502009B0469 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44B229AD25FDD502009B0469 /* Build configuration list for PBXNativeTarget "MAD Fitness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44B229AE25FDD502009B0469 /* Debug */,
+				44B229AF25FDD502009B0469 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44B229B025FDD502009B0469 /* Build configuration list for PBXNativeTarget "MAD FitnessTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44B229B125FDD502009B0469 /* Debug */,
+				44B229B225FDD502009B0469 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44B229B325FDD502009B0469 /* Build configuration list for PBXNativeTarget "MAD FitnessUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44B229B425FDD502009B0469 /* Debug */,
+				44B229B525FDD502009B0469 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		44B2298C25FDD4FF009B0469 /* MAD_Fitness.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				44B2298D25FDD4FF009B0469 /* MAD_Fitness.xcdatamodel */,
+			);
+			currentVersion = 44B2298D25FDD4FF009B0469 /* MAD_Fitness.xcdatamodel */;
+			path = MAD_Fitness.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 44B2297825FDD4FF009B0469 /* Project object */;
+}
